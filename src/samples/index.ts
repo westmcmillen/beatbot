@@ -1,7 +1,6 @@
 import linndrum from "./linndrum";
 import KR33 from "./KR33";
 import CR80 from "./CR80";
-import tr808 from "./tr-808";
 import tr909 from "./tr-909";
 
 export type Assets = [
@@ -36,7 +35,6 @@ const samples: Samples = {
   linndrum: { model: "Linndrum", assets: linndrum },
   KR33: { model: "Roland KR33", assets: KR33 },
   CR80: { model: "Roland CR80", assets: CR80 },
-  tr808: { model: "Roland TR-808", assets: tr808 },
   tr909: { model: "Roland TR-909", assets: tr909 },
 };
 
