@@ -36,10 +36,11 @@ Developed By: West McMillen
 "web-vitals": "^2.1.4"
 ```
 
-# To Run
+# To Install
 
 ```
 npm install beatbot
+or visit https://github.com/westmcmillen/beatbot
 ```
 
 # Blog
