@@ -1,6 +1,6 @@
 # BeatBot
 
-Meet your new favorite drummer. Always on time and nver gets tired! BeatBot is simple drum machine that brings the boom!
+Meet your new favorite drummer! BeatBot is simple drum machine that brings the boom!
 
 # Developement
 
