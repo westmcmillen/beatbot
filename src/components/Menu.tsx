@@ -1,6 +1,6 @@
 import React, { ReactElement, useEffect } from "react";
 
-import samples from "../assets/samples";
+import samples from "../samples";
 
 import kitSlice from "../store/kitSlice";
 import sampleSlice from "../store/sampleSlice";
@@ -48,12 +48,12 @@ export default function Pads({ className = "" }: Props) {
   return (
     <Component id="Kit">
       <div className={`${styles.static} ${styles.dynamic} ${styles.conditional}`}>
-        <Columns className="grid-cols-1 md:grid-cols-2 gap-1 !h-max">
+        <Columns className="gap-1 !h-max">
           {Object.entries(samples).map(entry => (
             <Component id="Pad" key={entry[1].model}>
               <button
                 className={
-                  "h-12 md:h-16 lg:h-20 bg-neutral-200 hover:bg-neutral-100 active:bg-neutral-200 border border-neutral-400 active:border-neutral-400 active:border-violet-400 focus:border-violet-400 rounded active:shadow-neutral-400 text-neutral-600 active:shadow-inner focus:outline-0 text-xs"
+                  "col-span-full md:col-span-8 h-12 md:h-16 lg:h-20 bg-neutral-200 hover:bg-neutral-100 active:bg-neutral-200 border border-neutral-400 active:border-neutral-400 active:border-violet-400 focus:border-violet-400 rounded active:shadow-neutral-400 text-neutral-600 active:shadow-inner focus:outline-0 text-xs"
                 }
                 onMouseDown={() => {
                   dispatch(kit.actions.set({ model: entry[1].model, assets: entry[1].assets }));

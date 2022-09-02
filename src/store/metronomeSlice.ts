@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-import metronome from "../assets/samples/metronome";
+import metronome from "../samples/metronome";
 
 const metronomeSlice = createSlice({
   name: "metronome",

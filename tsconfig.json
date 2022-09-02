@@ -23,6 +23,6 @@
     "./node_modules/redux-persist/es/persistStore.js",
     "./node_modules/redux-persist/lib/storage/index.js",
     "./node_modules/redux-persist/es/persistReducer.js",
-    "src/assets/samples"
+    "src/samples"
   ]
 }

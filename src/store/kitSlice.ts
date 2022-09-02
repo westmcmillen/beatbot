@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-import samples from "../assets/samples";
+import samples from "../samples";
 
 const kitSlice = createSlice({
   name: "kit",
