@@ -35,16 +35,3 @@ export default function PageNotFound({ className = "" }: Props) {
     </Component>
   );
 }
-
-{
-  /* <Flex className="flex-col justify-center items-center gap-4 p-16 bg-neutral-50 border-4 border-violet-600 rounded-3xl shadow-xl">
-  <span className="text-[8rem] font-bold">404</span>
-  <FontAwesomeIcon icon={faRobot} className="text-[16rem] text-violet-600" />
-  <span className="text-[3rem] font-bold text-center">What happend to the drummer who hit their head?</span>
-  <span className="text-[2rem] text-neutral-600 text-center">They got a percussion!</span>
-  <span className="text-[2rem] text-neutral-600 text-center">Here's a link to help get you back on beat.</span>
-  <Link to="/" className="contents">
-    <button className="w-1/4 py-4 border border-violet-600 rounded text-xl text-violet-600">Home</button>
-  </Link>
-</Flex>; */
-}
