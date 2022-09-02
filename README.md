@@ -43,3 +43,5 @@ npm install beatbot
 ```
 
 # Blog
+
+https://medium.com/@westmcmillen/typescript-drum-machine-8ceb180824b6
