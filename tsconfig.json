@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src/*",
+    "types/*",
+    "./node_modules/redux-persist/types/integration/react.d.ts",
+    "./node_modules/redux-persist/es/persistStore.js",
+    "./node_modules/redux-persist/lib/storage/index.js",
+    "./node_modules/redux-persist/es/persistReducer.js",
+    "src/assets/samples"
+  ]
+}
